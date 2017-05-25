@@ -1,0 +1,15 @@
+
+* {
+  box-sizing: border-box;
+}
+
+// partials to be included. sass knows its  partial because the file is prefixed with an _
+// when importing just use the name without the _ make sure partial files have .scss extension
+@import "navbar";
+@import "cards";
+@import "footer";
+@import "break";
+
+body {
+  padding-top: 70px;
+}

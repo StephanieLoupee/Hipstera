@@ -1,0 +1,26 @@
+.navbar {
+background-color: #432109;
+margin-top: 0;
+font-family: Arial, sans-serif;
+font-weight: bold;
+}
+
+.navbar-nav > li > a{
+  color: white;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navbar-nav li a {
+    line-height: 70px;
+    height: 70px;
+    padding-top: 0;
+}
